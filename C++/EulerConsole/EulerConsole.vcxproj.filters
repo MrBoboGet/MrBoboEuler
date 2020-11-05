@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EulerConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem57Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigInteger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem61Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem66Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem64Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem65Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem69Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem72Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem73Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem74Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem71Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem75Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem77Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem78Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem80Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem81Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem82Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem87Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralPurpose\IntrinsicGrejer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\Combinatorics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\ContinuedFractions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\FigurativeNumbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\GrafTeori.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\QuadraticEquations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatteLibrary\TalTeori.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralPurpose\MinaStringOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralPurpose\Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem57Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInteger.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem61Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem66Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem64Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem65Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem69Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem72Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem73Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem74Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem71Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem75Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem77Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem78Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem80Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem81Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem82Solver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPurpose\IntrinsicGrejer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\Combinatorics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\ContinuedFractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\FigurativeNumbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\GrafTeori.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\QuadraticEquations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatteLibrary\TalTeori.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPurpose\MinaStringOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPurpose\Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPurpose\TextReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem89Solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Problem81Data.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Problem81DataTest.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Problem82Data.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test.txt" />
+    <Text Include="Problem89Data.txt" />
+  </ItemGroup>
+</Project>

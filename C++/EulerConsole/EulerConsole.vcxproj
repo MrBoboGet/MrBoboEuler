@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{69ecba3a-8f6e-4f55-a4d1-e71a65149968}</ProjectGuid>
+    <RootNamespace>EulerConsole</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BigInt;$(SolutionDir)Source Files;$(SolutionDir);$(SolutionDir)GeneralPurpose;$(SolutionDir)MatteLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BigInt;$(SolutionDir)Source Files;$(SolutionDir);$(SolutionDir)GeneralPurpose;$(SolutionDir)MatteLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BigInt;$(SolutionDir)Source Files;$(SolutionDir);$(SolutionDir)GeneralPurpose;$(SolutionDir)MatteLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)BigInt;$(SolutionDir)Source Files;$(SolutionDir);$(SolutionDir)GeneralPurpose;$(SolutionDir)MatteLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BigInteger.cpp" />
+    <ClCompile Include="EulerConsole.cpp" />
+    <ClCompile Include="GeneralPurpose\IntrinsicGrejer.cpp" />
+    <ClCompile Include="GeneralPurpose\MinaStringOperations.cpp" />
+    <ClCompile Include="GeneralPurpose\Vector2D.cpp" />
+    <ClCompile Include="MatteLibrary\Combinatorics.cpp" />
+    <ClCompile Include="MatteLibrary\ContinuedFractions.cpp" />
+    <ClCompile Include="MatteLibrary\FigurativeNumbers.cpp" />
+    <ClCompile Include="MatteLibrary\GrafTeori.cpp" />
+    <ClCompile Include="MatteLibrary\QuadraticEquations.cpp" />
+    <ClCompile Include="MatteLibrary\TalTeori.cpp" />
+    <ClCompile Include="Problem57Solver.cpp" />
+    <ClCompile Include="Problem61Solver.cpp" />
+    <ClCompile Include="Problem64Solver.cpp" />
+    <ClCompile Include="Problem65Solver.cpp" />
+    <ClCompile Include="Problem66Solver.cpp" />
+    <ClCompile Include="Problem69Solver.cpp" />
+    <ClCompile Include="Problem71Solver.cpp" />
+    <ClCompile Include="Problem72Solver.cpp" />
+    <ClCompile Include="Problem73Solver.cpp" />
+    <ClCompile Include="Problem74Solver.cpp" />
+    <ClCompile Include="Problem75Solver.cpp" />
+    <ClCompile Include="Problem77Solver.cpp" />
+    <ClCompile Include="Problem78Solver.cpp" />
+    <ClCompile Include="Problem80Solver.cpp" />
+    <ClCompile Include="Problem81Solver.cpp" />
+    <ClCompile Include="Problem82Solver.cpp" />
+    <ClCompile Include="Problem87Solver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BigInteger.h" />
+    <ClInclude Include="GeneralPurpose\IntrinsicGrejer.h" />
+    <ClInclude Include="GeneralPurpose\MinaStringOperations.h" />
+    <ClInclude Include="Problem89Solver.h" />
+    <ClInclude Include="GeneralPurpose\TextReader.h" />
+    <ClInclude Include="GeneralPurpose\Vector2D.h" />
+    <ClInclude Include="MatteLibrary\Combinatorics.h" />
+    <ClInclude Include="MatteLibrary\ContinuedFractions.h" />
+    <ClInclude Include="MatteLibrary\FigurativeNumbers.h" />
+    <ClInclude Include="MatteLibrary\GrafTeori.h" />
+    <ClInclude Include="MatteLibrary\QuadraticEquations.h" />
+    <ClInclude Include="MatteLibrary\TalTeori.h" />
+    <ClInclude Include="Problem57Solver.h" />
+    <ClInclude Include="Problem61Solver.h" />
+    <ClInclude Include="Problem64Solver.h" />
+    <ClInclude Include="Problem65Solver.h" />
+    <ClInclude Include="Problem66Solver.h" />
+    <ClInclude Include="Problem69Solver.h" />
+    <ClInclude Include="Problem71Solver.h" />
+    <ClInclude Include="Problem72Solver.h" />
+    <ClInclude Include="Problem73Solver.h" />
+    <ClInclude Include="Problem74Solver.h" />
+    <ClInclude Include="Problem75Solver.h" />
+    <ClInclude Include="Problem77Solver.h" />
+    <ClInclude Include="Problem78Solver.h" />
+    <ClInclude Include="Problem80Solver.h" />
+    <ClInclude Include="Problem81Solver.h" />
+    <ClInclude Include="Problem82Solver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Problem89Data.txt" />
+    <Text Include="Test.txt" />
+    <Text Include="Problem81Data.txt" />
+    <Text Include="Problem81DataTest.txt" />
+    <Text Include="Problem82Data.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
